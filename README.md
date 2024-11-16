@@ -16,4 +16,18 @@ Este proyecto es una API desarrollada con **Next.js 14** para gestionar clientes
 
 ![Agregar Tarea](recursos/endpointclientes.png)
 
-- Una API para información general de clientes la cual se puede ingresar información por medio de peticiones POST  http://localhost:3000/api/información
+- Una API para información  de clientes la cual se puede ingresar información por medio de peticiones POST  http://localhost:3000/api/informacion
+![Agregar Tarea](recursos/endpointinformacion.png)
+
+- Una API para Consultar información  de clientes por medio de un listado la cual se puede ingresar información por medio de peticiones GET  http://localhost:3000/api/listado-general
+
+![Agregar Tarea](recursos/endpointinformaciongeneral.png)
+
+
+Es importante resltar que para la solución en el almacenamiento de información se utilizo la base de datos Postgresql en la cual se crea la solución  y se conecto por medio de prisma, Creando de esta manera dos tablas para la solución del proyecto como se puede mostrar en la siguiente imagen 
+
+- Tabla clientes : para guardar información de clientes
+- Tabla informacionGeneral: para guardar información sobre la creación de clientes
+
+![Agregar Tarea](recursos/bd1.png)
+
