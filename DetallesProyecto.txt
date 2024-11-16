@@ -1,0 +1,17 @@
+URL repositorio:
+
+https://github.com/engelberth90/ParcialFinal-Web.git
+
+Descripción: 
+los detalles del desarrollo del proyecto se encuentra en Readme.md
+
+En resumen se configuró:
+
+- Este proyecto  se realizo localmente por lo que para consumir la api se puede utilizar el siguiente end point general: http://localhost:3000/
+
+- Una API para clientes en la cual se puede crear clientes por medio de peticiones POST : http://localhost:3000/api/clientes
+
+- Una API para información general de clientes la cual se puede ingresar información por medio de peticiones POST  http://localhost:3000/api/información
+ 
+- para mostar la información general de los clientes creados y su información se creó un endpoint llamado información general  GET /api/listado-general
+
